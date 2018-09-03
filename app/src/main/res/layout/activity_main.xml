@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="194dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/tropical_underwater_world"/>
+            
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:padding="16dp"
+                android:textStyle="bold"
+                android:text="@string/scuba_quiz"/>
+
+            <LinearLayout
+                style="@style/QuestionLinearLayout">
+
+                <ImageView
+                    style="@style/QuestionNumberImageView"
+                    android:src="@drawable/one_black_48dp"/>
+
+                <TextView
+                    style="@style/QuestionTextView"
+                    android:text="@string/question_no1"/>
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/q1_answer"
+                style="@style/AnswerEditText"
+                android:hint="@string/write_your_answer_here"/>
+
+            <View
+                style="@style/QuestionDivider"/>
+
+            <LinearLayout
+                style="@style/QuestionLinearLayout">
+
+                <ImageView
+                    style="@style/QuestionNumberImageView"
+                    android:src="@drawable/two_black_48dp"/>
+
+                <TextView
+                    style="@style/QuestionTextView"
+                    android:text="@string/question_no2"/>
+
+            </LinearLayout>
+
+            <RadioGroup
+                style="@style/AnswerRadioButtonGroup">
+
+                <RadioButton
+                    android:id="@+id/q2_answer1"
+                    style="@style/AnswerRadioButton"
+                    android:text="@string/year_1878"/>
+
+                <RadioButton
+                    android:id="@+id/q2_answer2"
+                    style="@style/AnswerRadioButton"
+                    android:text="@string/year_1942"/>
+
+                <RadioButton
+                    android:id="@+id/q2_answer3"
+                    style="@style/AnswerRadioButton"
+                    android:text="@string/year_1952"/>
+
+                <RadioButton
+                    android:id="@+id/q2_answer4"
+                    style="@style/AnswerRadioButton"
+                    android:text="@string/year_1985"/>
+
+            </RadioGroup>
+
+            <View
+                style="@style/QuestionDivider"/>
+
+            <LinearLayout
+                style="@style/QuestionLinearLayout">
+
+                <ImageView
+                    style="@style/QuestionNumberImageView"
+                    android:src="@drawable/three_black_48dp"/>
+
+                <TextView
+                    style="@style/QuestionTextView"
+                    android:text="@string/question_no3"/>
+
+            </LinearLayout>
+
+            <RadioGroup
+                style="@style/AnswerRadioButtonGroup">
+
+                <RadioButton
+                    android:id="@+id/q3_answer1"
+                    style="@style/AnswerRadioButton"
+                    android:text="@string/depth_10"/>
+
+                <RadioButton
+                    android:id="@+id/q3_answer2"
+                    style="@style/AnswerRadioButton"
+                    android:text="@string/depth_20"/>
+
+                <RadioButton
+                    android:id="@+id/q3_answer3"
+                    style="@style/AnswerRadioButton"
+                    android:text="@string/depth_30"/>
+
+                <RadioButton
+                    android:id="@+id/q3_answer4"
+                    style="@style/AnswerRadioButton"
+                    android:text="@string/depth_40"/>
+
+            </RadioGroup>
+
+            <View
+                style="@style/QuestionDivider"/>
+
+            <LinearLayout
+                style="@style/QuestionLinearLayout">
+
+                <ImageView
+                    style="@style/QuestionNumberImageView"
+                    android:src="@drawable/four_black_48dp"/>
+
+                <TextView
+                    style="@style/QuestionTextView"
+                    android:text="@string/question_no4"/>
+
+            </LinearLayout>
+
+            <RadioGroup
+                style="@style/AnswerRadioButtonGroup">
+
+                <RadioButton
+                    android:id="@+id/q4_answer1"
+                    style="@style/AnswerRadioButton"
+                    android:text="@string/open_water_diver"/>
+
+                <RadioButton
+                    android:id="@+id/q4_answer2"
+                    style="@style/AnswerRadioButton"
+                    android:text="@string/advanced_open_water_diver"/>
+
+                <RadioButton
+                    android:id="@+id/q4_answer3"
+                    style="@style/AnswerRadioButton"
+                    android:text="@string/rescue_diver"/>
+
+                <RadioButton
+                    android:id="@+id/q4_answer4"
+                    style="@style/AnswerRadioButton"
+                    android:text="@string/divemaster"/>
+
+            </RadioGroup>
+
+            <View
+                style="@style/QuestionDivider"/>
+
+            <LinearLayout
+                style="@style/QuestionLinearLayout">
+
+                <ImageView
+                    style="@style/QuestionNumberImageView"
+                    android:src="@drawable/five_black_48dp"/>
+
+                <TextView
+                    style="@style/QuestionTextView"
+                    android:text="@string/question_no5"/>
+
+            </LinearLayout>
+
+            <CheckBox
+                android:id="@+id/q5_answer1"
+                style="@style/AnswerCheckBox"
+                android:text="@string/org_tssf"/>
+
+            <CheckBox
+                android:id="@+id/q5_answer2"
+                style="@style/AnswerCheckBox"
+                android:text="@string/org_ssi"/>
+
+            <CheckBox
+                android:id="@+id/q5_answer3"
+                style="@style/AnswerCheckBox"
+                android:text="@string/org_ndsf"/>
+
+            <CheckBox
+                android:id="@+id/q5_answer4"
+                style="@style/AnswerCheckBox"
+                android:text="@string/org_cmas"/>
+
+            <CheckBox
+                android:id="@+id/q5_answer5"
+                style="@style/AnswerCheckBox"
+                android:text="@string/org_padi"/>
+
+            <View
+                style="@style/QuestionDivider"/>
+
+            <LinearLayout
+                style="@style/QuestionLinearLayout">
+
+                <ImageView
+                    style="@style/QuestionNumberImageView"
+                    android:src="@drawable/six_black_48dp"/>
+
+                <TextView
+                    style="@style/QuestionTextView"
+                    android:text="@string/question_no6"/>
+
+            </LinearLayout>
+
+            <RadioGroup
+                style="@style/AnswerRadioButtonGroup">
+
+                <RadioButton
+                    android:id="@+id/q6_answer1"
+                    style="@style/AnswerRadioButton"
+                    android:text="@string/waiting_5min_at_3m"/>
+
+                <RadioButton
+                    android:id="@+id/q6_answer2"
+                    style="@style/AnswerRadioButton"
+                    android:text="@string/waiting_5min_at_15m"/>
+
+                <RadioButton
+                    android:id="@+id/q6_answer3"
+                    style="@style/AnswerRadioButton"
+                    android:text="@string/waiting_3min_at_5m"/>
+
+                <RadioButton
+                    android:id="@+id/q6_answer4"
+                    style="@style/AnswerRadioButton"
+                    android:text="@string/waiting_3min_at_15m"/>
+
+            </RadioGroup>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="16dp"
+                android:onClick="checkResults"
+                android:text="@string/check_answers"
+                android:textAllCaps="true"
+                android:textSize="14sp"/>
+
+        </LinearLayout>
+
+</ScrollView>

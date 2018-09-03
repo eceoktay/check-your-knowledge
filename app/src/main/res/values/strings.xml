@@ -1,0 +1,38 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">CheckYourKnowledge</string>
+    <string name="scuba_quiz">Scuba Quiz</string>
+    <string name="check_answers">Check Results</string>
+    <string name="question_no1">What does SCUBA stand for?</string>
+    <string name="question_no2">When was the first successful and safe open-circuit scuba,
+        Aqua-Lung, designed?</string>
+    <string name="question_no3">What is the limit for recreational diving in Turkey?</string>
+    <string name="question_no4">What is the first recreational certification level?</string>
+    <string name="question_no5">Select all diver training, certification and
+        accreditation organisations:</string>
+    <string name="question_no6">How is safety stop, which is considered mandatory by the scuba
+        training organization for dives deeper than 100 feet, applied?</string>
+    <string name="write_your_answer_here">Write your answer here</string>
+    <string name="scuba_standing">Self-Contained Underwater Breathing Apparatus</string>
+    <string name="year_1878">1878</string>
+    <string name="year_1942">1942</string>
+    <string name="year_1952">1952</string>
+    <string name="year_1985">1985</string>
+    <string name="depth_10">10</string>
+    <string name="depth_20">20</string>
+    <string name="depth_30">30</string>
+    <string name="depth_40">40</string>
+    <string name="org_tssf">TSSF</string>
+    <string name="org_ssi">SSI</string>
+    <string name="org_cmas">CMAS</string>
+    <string name="org_padi">PADI</string>
+    <string name="org_ndsf">NDSF</string>
+    <string name="open_water_diver">Open Water Diver</string>
+    <string name="advanced_open_water_diver">Advanced Open Water Diver</string>
+    <string name="rescue_diver">Rescue Diver</string>
+    <string name="divemaster">Divemaster</string>
+    <string name="waiting_3min_at_5m">Waiting 3 min at 5 m</string>
+    <string name="waiting_3min_at_15m">Waiting 3 min at 15 m</string>
+    <string name="waiting_5min_at_3m">Waiting 5 min at 3 m</string>
+    <string name="waiting_5min_at_15m">Waiting 5 min at 15 m</string>
+    <string name="quiz_result">Success rate: <xliff:g id="result" example="6">%d</xliff:g>/6</string>
+</resources>
